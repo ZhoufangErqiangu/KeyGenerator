@@ -30,9 +30,7 @@ private slots:
     void SlotGenerate();
 
 private:
-    Ui::KeyGenerator *ui;    
-
-    int iChars[256];
+    Ui::KeyGenerator *ui;
 
     QString GenerateKey(bool bUpperCheck, bool bLowerCheck, bool bNumCheck, bool bSpecialCheck, int iKeyLength);
     void ReadConfig();

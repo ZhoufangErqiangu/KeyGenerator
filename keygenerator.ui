@@ -86,7 +86,7 @@
         <item>
          <widget class="QSpinBox" name="KeyLengthSpinBox">
           <property name="minimum">
-           <number>1</number>
+           <number>8</number>
           </property>
           <property name="maximum">
            <number>256</number>
